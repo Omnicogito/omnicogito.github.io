@@ -1,0 +1,146 @@
+body {
+    background-color: #E8D4F7;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+}
+header {
+    position: relative;
+    box-align: top;
+    padding: 2.3em 0 0.5em;
+    margin: 0 0 2.0em;
+    background-color: #700CBC;
+}
+header h1 {
+    color: #FB8604;
+    text-shadow: .05em .05em 0 #342009;
+    font-size: 7.5em;
+    margin: 0;
+    font-family: 'Atomic Age', cursive;
+    float: center;
+    animation-name: titleTransition;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+header h2 {
+    color: #7FBD32;
+    text-shadow: .05em .05em 0 #342009;
+    font-size: 4.5em;
+    margin: 0;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+nav {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1em 0 ;
+    background-color: #FB8604;
+}
+nav#top {
+    width: 1170;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0;
+}
+nav#utilitybar {
+    background-color: #E8D4F7;
+    float: right;
+    border-radius: 2em;
+}
+nav#utilitybar li{
+    background-color: #FB8604;
+    margin: 1em;
+    padding: .5em;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5em;
+    float: center;
+    box-shadow: .2em .2em 0 #2BA967;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+section#sidebar {
+    border-radius: 2em;
+    width: 14em;
+    float: right;
+    position: relative;
+    display: block;
+    background-color:#700CBC;
+    margin: 1.5em 0 3.0em 0em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: #2BA967;
+}
+nav#sidestuff {
+    border-radius: 2em;
+    width: 10em;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #700CBC;
+    margin: 1.0em 0 3.0em 0em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: #2BA967;
+}
+nav#sidestuff ul li{
+    background-color: #FB8604;
+    margin: 1em;
+    padding: .5em;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5em;
+    float: center;
+    box-shadow: .2em .2em 0 #2BA967;
+    /* border-color: #2BA967; */
+    /*border: solid 0.2em #2BA967;*/
+}
+nav#sidestuff a{
+    text-decoration: none;
+    color: #700CBC;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+section div.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1 px;
+    border-radius: 0.6em;
+}
+section div.panel img.survival {
+    width: 100%;
+}
+#sidetext {
+    float: left;
+    position: relative;
+    width: 10em;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1 px;
+    border-radius: 0.6em;
+}
+#subheadOne {
+    color: #2BA967;
+    text-shadow: .05em .05em 0 #342009;
+}
+#subheadTwo {
+    color: #FB8604;
+    text-shadow: .05em .05em .5em #2BA967;
+}
+@keyframes titleTransition {
+    from {color: #FB8604;}
+    to {color: #E8D4F7;}
+  }
