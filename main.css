@@ -76,10 +76,40 @@ body, html {
     color: #111;
   }
 
-  .d-flex {
+  .bgimg-1 .d-flex {
     position: absolute;
     left: 0;
     top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    display: flex;
+  }
+
+  .bgimg-5 .d-flex {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    display: flex;
+  }
+
+  .bgimg-4 .d-flex {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    display: flex;
+  }
+
+  .d-flex {
+    position: absolute;
+    left: 0;
+    top: 10%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -105,4 +135,21 @@ body, html {
 
 .a{
   color: blueviolet
+}
+
+.profile{
+  height: 15%;
+  width: 15%;
+  margin: auto;
+}
+
+.about{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #fff;
 }
